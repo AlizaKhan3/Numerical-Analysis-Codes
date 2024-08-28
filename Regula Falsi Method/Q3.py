@@ -1,7 +1,7 @@
 import math
 
 def f(x):
-    return math.exp(-x) + 2**(-x) + 2 * math.cos(x) - 6
+    return math.exp(x) + 2**(-x) + 2 * math.cos(x) - 6
 
 def regula_falsi(xl, xu, tol=1e-4, max_iter=100):
     fl = f(xl)
