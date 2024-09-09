@@ -26,4 +26,4 @@ for guess in initial_guesses:
         root = newton_raphson(guess)
         print(f"The root of the equation x - 0.8 - 0.2sin(x) = 0, starting from initial guess {guess}, correct to 4 decimal places, is: {root}")
     except ValueError as e:
-        print(f"Error with initial guess {guess}: {e}")
+        print(f"Error with initial guess is {guess}: {e}")
